@@ -1,0 +1,16 @@
+<table class="table table-striped" ng-controller="MyCtrl">
+    <thead>
+      <tr>
+        <th>Email</th>
+        <th>Email</th>
+        <th>Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="customer in customers">
+        <td>{{ customer.email }}</td>
+        <td>{{ customer.name }}</td>
+        <td>{{ customer.phone }}</td>
+      </tr>
+    </tbody>
+  </table>
